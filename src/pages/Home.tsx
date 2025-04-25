@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import UserNavbar from '../components/UserNavbar'; // path dekh lena kahaan rakha hai
+import UserNavbar from '../components/UserNavbar'; 
 
 const Home: React.FC = () => {
   const navigate = useNavigate();
